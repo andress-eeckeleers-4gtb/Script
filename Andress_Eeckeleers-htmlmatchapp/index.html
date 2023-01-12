@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <h1>Andress HTML Applicatie</h1>
+</header>
+<main>
+    <section id="intro">
+        <h2>meer informatie over deze applicatie!</h2>
+        <img src="images/pdrfeednick-scaled.jpg" alt="foto klaslokaal"
+        width="499">
+        <p>klik hier voor <a href="http://google.com">meer foto's van klaslokalen</a>  </p>
+   
+    <section id="lijstjes"></section>
+        <h2>wat ik wel mag doen in de klas :</h2>
+        <ul>
+            <li>zwijgen</li>
+            <li>opletten</li>
+            <li>luisteren</li>
+        </ul>
+        <h2>wat mag ik niet doen:</h2>
+        <ol>
+            <li>geluiden afspelen</li>
+            <li>de les verstoren</li>
+        </ol>    
+        </section>
+        <section>
+            <form action=""></form>
+                <fieldset>
+                    <legend>
+                        wat is je bijnaam
+                    </legend>
+                    <input type="text" placeholder="plaats hier je bijnaam">
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        wat is je leeftijd
+                    </legend>
+                    <input type="number" name="leeftijd"  min="1" max="120" placeholder="leeftijd">
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        kleur van het klaslokaal
+                    </legend>
+                        <input type="radio" name="kleur" 
+                        value="rood lokaal">rood lokaal 
+                        <input type="radio" name="kleur" 
+                        value="rood lokaal">wit lokaal 
+                        <input type="radio" name="kleur" 
+                        value="rood lokaal">blauw lokaal 
+                        <input type="radio" name="kleur" 
+                        value="rood lokaal">groen lokaal 
+
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        wat is er aanwezig
+                    </legend>
+                    <input type="checkbox" name="aanwezig">alexis
+                    <input type="checkbox" name="aanwezig">stoel
+                    <input type="checkbox" name="aanwezig">tafel
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Heeft u nog een opmerking
+                    </legend>
+                   <textarea name="opmerking" cols="54" rows="20"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Waar heeft u deze aplicatie leren kennen?
+                    </legend>
+                    <select name="enquete" id="">
+                        <option value="">vrienden of familie</option>
+                        <option value="">advertensie</option>
+                        <option value="">School</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <button type="submit">
+                        verzenden
+                    </button>
+                </fieldset>
+                <fieldset>
+                    <button type="reset">
+                        reset
+                    </button>
+                </fieldset>
+        </section>   
+    </main>
+</body>
+</html>

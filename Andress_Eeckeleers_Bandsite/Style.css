@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 72, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: rgb(255, 0, 0);
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: rgb(255, 208, 0);
+}
+
+
+main {
+    background-color: rgb(255, 208, 0);
+    margin: 5%;
+}
+
+#Albums {
+    background-color: rgb(255, 208, 0);
+}
+
+h1 {
+    margin-bottom: 50px;
+}
