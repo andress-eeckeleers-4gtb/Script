@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(255, 255, 255);
+    @font-face
+    font-family: ;
+    src: url();
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+header {
+ 
+    padding: 5%;
+    background-color: rgb(255, 191, 0);
+}
+header nav li {
+    display: inline
+}
+header img{
+    width: 300px;
+}
+header input {
+    border-radius:5px;
+    padding: 3px 10px;
+    width: 120px;
+}
