@@ -5,6 +5,10 @@ body {
     src: url();
 }
 
+img {
+    width: 100%;
+}
+
 .flex-container {
     display: flex;
     justify-content: space-evenly;
@@ -34,6 +38,15 @@ header input {
 }
 
 video{
-    width: 190ch;
+    width: 100%;
     
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.flex-item {
+    flex: 1;
 }
