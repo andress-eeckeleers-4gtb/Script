@@ -45,8 +45,33 @@ video{
     display: flex;
     justify-content: space-between;
     gap: 2rem;
+    padding: 1cm;
 }
 
 .flex-item {
     flex: 1;
+    ;
+}
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 12%;
+    left: 15%;
+}
+section { 
+    margin-bottom: 2ch;
+    padding: ;
+}
+#membership .flex-item{
+    padding: cm;
+}
+.higlight {
+        background-color: blueviolet;
+}
+.membership {
+    background-image: url
+
 }
