@@ -1,7 +1,6 @@
 body {
     background-color: rgb(255, 255, 255);
-    @font-face
-    font-family: ;
+    @font-face font-family: ;
     src: url();
 }
 
@@ -11,8 +10,17 @@ img {
 
 .flex-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1rem;
 }
+
+.flex-item {
+    flex: 1;
+}
+
+
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -21,37 +29,30 @@ img {
 
 
 header {
- 
+
     padding: 5%;
     background-color: rgb(255, 191, 0);
 }
+
 header nav li {
     display: inline
 }
-header img{
+
+header img {
     width: 300px;
 }
+
 header input {
-    border-radius:5px;
+    border-radius: 5px;
     padding: 3px 10px;
     width: 120px;
 }
 
-video{
+video {
     width: 100%;
-    
-}
-.flex-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 2rem;
-    padding: 1cm;
+
 }
 
-.flex-item {
-    flex: 1;
-    ;
-}
 figure {
     position: relative;
 }
@@ -60,18 +61,23 @@ figcaption {
     position: absolute;
     bottom: 12%;
     left: 15%;
+    color: rgb(255, 170, 0);
 }
-section { 
+
+section {
     margin-bottom: 2ch;
     padding: ;
 }
-#membership .flex-item{
+
+#membership .flex-item {
     padding: cm;
 }
+
 .higlight {
-        background-color: blueviolet;
+    background-color: blueviolet;
 }
+
 .membership {
     background-image: url
-
 }
+#span .h3{color: aquamarine;}
