@@ -81,3 +81,27 @@ section {
     background-image: url
 }
 #span .h3{color: aquamarine;}
+
+
+footer {
+    padding: 5vw 10vw;
+    background-color: #ff000000;
+    color: #ff0000;
+}
+
+footer .flex-container:first-child {
+    margin-bottom: 2rem;
+}
+
+footer ul li {
+    font-size: 0.8rem;
+    line-height: 2;
+    list-style-type: none;
+}
+
+footer ul li:first-child a, footer ul:first-child li a {
+    color: #7a7a7a;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
