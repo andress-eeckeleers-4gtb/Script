@@ -80,7 +80,10 @@ section {
 .membership {
     background-image: url
 }
-#span .h3{color: aquamarine;}
+
+#span .h3 {
+    color: aquamarine;
+}
 
 
 footer {
@@ -99,9 +102,13 @@ footer ul li {
     list-style-type: none;
 }
 
-footer ul li:first-child a, footer ul:first-child li a {
+footer ul li:first-child a {
     color: #7a7a7a;
     font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
 }
+footer {
+    background-color: #ffffff;
+}
+footer li: :first-child a {}
